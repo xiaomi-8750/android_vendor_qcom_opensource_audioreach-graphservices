@@ -1,10 +1,9 @@
 cc_library_shared {
     name: "liblx-ar_util",
-    defaults: [
-        "android_hardware_qtiaudio_config_defaults",
-    ],
     owner: "qti",
     vendor: true,
+    
+    compile_multilib: "64",
 
     cflags: [
         "-D_ANDROID_"
