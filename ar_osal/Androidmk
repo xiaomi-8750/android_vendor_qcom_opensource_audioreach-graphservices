@@ -22,9 +22,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/api
 
 LOCAL_CFLAGS := $(osal-def)
 
-LOCAL_HEADER_LIBRARIES += audio_kernel_headers
 LOCAL_HEADER_LIBRARIES += libarosal_headers
-LOCAL_HEADER_LIBRARIES += qti_audio_kernel_uapi
 LOCAL_EXPORT_HEADER_LIBRARY_HEADERS := libarosal_headers
 
 include $(LIBION_HEADER_PATH_WRAPPER)
